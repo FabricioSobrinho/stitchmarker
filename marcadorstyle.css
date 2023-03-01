@@ -1,0 +1,115 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("back.png");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+  }
+  
+  button {
+    background-color: #002351;
+    color: #f6f6f6;
+  }
+  div#div1 {
+    color: #fafafa; 
+    font: normal 12pt arial;
+  }
+ input {
+  color: black;
+  font: normal 10pt arial;
+ }
+ #buttonadd { 
+    position: center;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    height: 24px;
+    width: 90px;
+    background: #002351;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    padding: 5px;
+   /* border-radius: 8px 8px 8px 8px; */
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  #buttonadd:hover {
+    box-shadow: inset -10.5em 0 0 0 #1f2e68, inset 10.5em 0 0 0 #1f2e68; 
+  }
+  button:hover {
+    box-shadow: inset -10.5em 0 0 0 #1f2e68, inset 10.5em 0 0 0 #1f2e68; 
+ } 
+ footer {
+  padding: 30px;
+ }
+ #rein {
+  position: center;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    height: 24px;
+    width: 90px;
+    background: #002351;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    padding: 5px;
+   /* border-radius: 8px 8px 8px 8px; */
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+ }
+ #rein:hover {
+  box-shadow: inset -10.5em 0 0 0 #1f2e68, inset 10.5em 0 0 0 #1f2e68; 
+ }
